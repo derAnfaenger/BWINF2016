@@ -1,0 +1,23 @@
+digraph yamyam {
+0 -> 0 [label = "\n1"];
+1 -> 0 [label = ""];
+0[label = "0" color=yellow style = filled];
+0 -> 1 [label = "\n5"];
+1 -> 1 [label = "\n0\n5"];
+2 -> 1 [label = "\n0"];
+1[label = "1" color=orange style = filled];
+2 -> 2 [label = "\n1\n3"];
+2[label = "2" color=red style = filled];
+2 -> 3 [label = ""];
+3 -> 3 [label = "\n5"];
+4 -> 3 [label = "\n5"];
+3[label = "3" color=yellow style = filled];
+4 -> 4 [label = "\n3"];
+4[label = "4" color=yellow style = filled];
+1 -> 5 [label = ""];
+3 -> 5 [label = ""];
+5 -> 5 [label = ""];
+5[label = "5" color=green style = filled];
+6 -> 6 [label = ""];
+6[label = "6" color=red style = filled];
+}
